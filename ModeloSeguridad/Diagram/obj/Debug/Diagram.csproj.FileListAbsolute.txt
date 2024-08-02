@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\bin\Debug\Diagram.dll.config
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\bin\Debug\Diagram.dll
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\bin\Debug\Diagram.pdb
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\obj\Debug\Diagram.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\obj\Debug\Diagram.dll
+C:\Users\USUARIO\Documents\ModeloSeguridad\Diagram\obj\Debug\Diagram.pdb

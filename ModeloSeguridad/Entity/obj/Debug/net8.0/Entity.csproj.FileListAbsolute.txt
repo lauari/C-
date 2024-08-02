@@ -1,0 +1,4 @@
+C:\Users\USUARIO\Documents\ModeloSeguridad\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\ModeloSeguridad\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\ModeloSeguridad\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\ModeloSeguridad\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
