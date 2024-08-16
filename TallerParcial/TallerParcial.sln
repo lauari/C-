@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller", "Taller\Taller.csproj", "{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{E27FCEEC-F086-40F4-B905-9A55A6695452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27FCEEC-F086-40F4-B905-9A55A6695452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27FCEEC-F086-40F4-B905-9A55A6695452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27FCEEC-F086-40F4-B905-9A55A6695452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27FCEEC-F086-40F4-B905-9A55A6695452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDA153EB-E727-48FC-B5C7-9C5E099181CD}
+	EndGlobalSection
+EndGlobal

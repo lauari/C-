@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\bin\Debug\MetoYFunSinParametro.exe.config
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\bin\Debug\MetoYFunSinParametro.exe
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\bin\Debug\MetoYFunSinParametro.pdb
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\obj\Debug\MetoYFunSinParametro.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\obj\Debug\MetoYFunSinParametro.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\obj\Debug\MetoYFunSinParametro.exe
+C:\Users\USUARIO\Documents\ModelSecurityC-\MetodoYFuncionesAsyncAwait\MetoYFunSinParametro\obj\Debug\MetoYFunSinParametro.pdb

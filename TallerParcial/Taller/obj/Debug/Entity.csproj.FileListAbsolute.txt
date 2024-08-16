@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\bin\Debug\Taller.exe.config
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\bin\Debug\Taller.exe
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\bin\Debug\Taller.pdb
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\obj\Debug\Taller.exe
+C:\Users\USUARIO\Documents\ModelSecurityC-\TallerParcial\Taller\obj\Debug\Taller.pdb

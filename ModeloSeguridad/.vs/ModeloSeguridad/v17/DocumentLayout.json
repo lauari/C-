@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44ACE5BD-1CA2-4F68-A8A0-A4ACBFA9CD71}|Data\\Data.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\modeloseguridad\\data\\interfaces\\iroledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44ACE5BD-1CA2-4F68-A8A0-A4ACBFA9CD71}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iroledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2551458B-B465-407E-9B3E-A98EB2394D1C}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\modeloseguridad\\entity\\model\\security\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2551458B-B465-407E-9B3E-A98EB2394D1C}|Entity\\Entity.csproj|solutionrelative:entity\\model\\security\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2551458B-B465-407E-9B3E-A98EB2394D1C}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\modeloseguridad\\entity\\model\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2551458B-B465-407E-9B3E-A98EB2394D1C}|Entity\\Entity.csproj|solutionrelative:entity\\model\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRoleData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Data\\Interfaces\\IRoleData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRoleData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Data\\Interfaces\\IRoleData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRoleData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T22:05:00.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Entity\\Model\\Security\\UserRole.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Security\\UserRole.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Entity\\Model\\Security\\UserRole.cs",
+              "RelativeToolTip": "Entity\\Model\\Security\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T20:46:58.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Entity\\Model\\Security\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Security\\User.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\ModeloSeguridad\\Entity\\Model\\Security\\User.cs",
+              "RelativeToolTip": "Entity\\Model\\Security\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T20:46:24.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
