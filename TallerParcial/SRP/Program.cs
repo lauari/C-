@@ -25,7 +25,7 @@ namespace SRP
             Console.WriteLine($"{director.Name} tiene un salario de: {calcular.CalcularSalario(director)}");
         }
     }
-    public  class Person
+    public class Person
     {
         public virtual decimal TarifaDiaria => 0;
         public Person(String name)
@@ -37,7 +37,7 @@ namespace SRP
 
         public void Speak()
         {
-            Console.WriteLine($"Mi Nombre Es {Name}"); 
+            Console.WriteLine($"Mi Nombre Es {Name}");
         }
     }
     public class Empleada : Person
@@ -69,7 +69,7 @@ namespace SRP
         public decimal CalcularSalario(Person person)
         {
             return person.TarifaDiaria * 365;
-        }    
+        }
     }
     public class Database
     {
@@ -86,6 +86,23 @@ namespace SRP
         bool Update(Person person);
         bool Delete(int id);
     }
+    public interface IGettableRepository
+    {
+        Person Get(int id);
+        Person GetAll(); 
+    }
+    public interface IDeleteableRepository
+    {
+        bool Delete(int id);
+    }
+    public interface IUpdateableRepository 
+    {
+        bool Create(Person person);
+    }
+    public interface ICreatableRepository
+    {
+        bool Create(Person person);
+    }
     public class Repository : IRepository
     {
         public bool Create(Person person)
@@ -100,7 +117,7 @@ namespace SRP
         {
             throw new NotImplementedException();
         }
-        public IEnumerable<Person>GetAll();
+        public IEnumerable<Person> GetAll() 
         {
             throw new NotImplementedException();
         }
@@ -109,4 +126,4 @@ namespace SRP
             throw new NotImplementedException();
         }
     }
-}
+ }

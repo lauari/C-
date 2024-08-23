@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\tallerparcial\\taller\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|solutionrelative:taller\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27FCEEC-F086-40F4-B905-9A55A6695452}|SRP\\SRP.csproj|C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27FCEEC-F086-40F4-B905-9A55A6695452}|SRP\\SRP.csproj|solutionrelative:srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\tallerparcial\\taller\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|solutionrelative:taller\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27FCEEC-F086-40F4-B905-9A55A6695452}|SRP\\SRP.csproj|c:\\users\\usuario\\documents\\modelsecurityc-\\tallerparcial\\srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27FCEEC-F086-40F4-B905-9A55A6695452}|SRP\\SRP.csproj|solutionrelative:srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\taller\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEC5E8CB-04E6-47B4-8B34-E609B18682AE}|Taller\\Taller.csproj|solutionrelative:taller\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\SRP\\Program.cs",
               "RelativeDocumentMoniker": "SRP\\Program.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\SRP\\Program.cs",
               "RelativeToolTip": "SRP\\Program.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAmwG8AAAABAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T20:38:07.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ICalculable.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\Taller\\ICalculable.cs",
               "RelativeDocumentMoniker": "Taller\\ICalculable.cs",
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Taller\\Persona.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ModelSecurityC-\\TallerParcial\\Taller\\Persona.cs",
               "RelativeToolTip": "Taller\\Persona.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwC0AAAAzAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwF4AAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T20:55:32.995Z",
               "EditorCaption": ""

@@ -6,32 +6,18 @@ using System.Threading.Tasks;
 
 namespace Entity.Model.Security
 {
-    internal class Module
+    public class Module
     {
 
         // Atributos
-        private int idModule { get; set; }
-        private string Description { get; set; }
-        private string CreateAt { get; set; }
-        private string UpdateAt { get; set; }
-        private string DeleteAt { get; set; }
-        private string State { get; set; }
+        public int Id { get; set; }
+        public string Description { get; set; }
+        public DateTime CreateAt { get; set; }
+        public string UpdateAt { get; set; }
+        public DateTime DeleteAt { get; set; }
+        public bool State { get; set; }
 
-        // Constructor con parámetros
-        public Module(int idModule, string Description, string CreateAt, string UpdateAt, string DeleteAt, String State)
-        {
-            this.idModule = idModule;
-            this.Description = Description;
-            this.CreateAt = CreateAt;
-            this.UpdateAt = UpdateAt;
-            this.DeleteAt = DeleteAt;
-            this.State = State;
-        }
-
-        //public override string ToString()
-        //{
-        //    return $"Nombre Producto: {nombreProducto}, Descripción: {descripcion}, Categoria: {categoria}";
-        //}
+       
     }
 }
 
