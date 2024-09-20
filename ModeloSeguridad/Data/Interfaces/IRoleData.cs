@@ -16,5 +16,6 @@ namespace Data.Interfaces
         Task<Role> Save(Role entity);
         Task Update(Role entity);
         Task<Role> GetByName(string name);
+        Task<IEnumerable<Role>> GetAll();
     }
 }

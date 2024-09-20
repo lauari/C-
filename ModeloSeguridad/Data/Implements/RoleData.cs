@@ -25,8 +25,8 @@ namespace Data.Implements
                 if (entity == null)
                     throw new Exception("Registro no encontrado");
 
-                entity.DeleteAt = DateTime.Parse(DateTime.Today.ToString());
-                context.Role.Update(entity);
+
+                context.Role.Remove(entity);
                 await context.SaveChangesAsync();
             }
 
@@ -74,12 +74,18 @@ namespace Data.Implements
 
                 return await this.context.Role.AsNoTracking().Where(item => item.Name == name).FirstOrDefaultAsync();
             }
-         
 
-        //public async Task<IEnumerable<Role>> GetAll()
-        //{
-        //    var sql = @"SELECT * FROM Role ORDER BY Id ASC";
-        //    return await this.context.QueryAsync<Role>(sql);
-        //}
+        public async Task<IEnumerable<Role>> GetAll()
+        {
+            try
+            {
+                var sql = "SELECT * FROM Role WHERE State=true ORDER BY Id ASC";
+                return await this.context.QueryAsync<Role>(sql);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener todos los Role", ex);
+            }
+        }
     }
 }

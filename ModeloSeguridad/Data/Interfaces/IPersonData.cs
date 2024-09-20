@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Data.Interfaces
 {
-    internal interface IPersonData
+    public interface IPersonData
     {
         Task Delete(int id);
         Task<Person> GetById(int id);
         Task<Person> Save(Person entity);
         Task Update(Person entity);
         Task<Person> GetByName(string name);
+        Task<IEnumerable<Person>> GetAll();
     }
 }

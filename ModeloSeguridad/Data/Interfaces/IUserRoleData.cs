@@ -13,5 +13,7 @@ namespace Data.Interfaces
         Task<UserRole> GetById(int id);
         Task<UserRole> Save(UserRole entity);
         Task Update(UserRole entity);
+        public Task<IEnumerable<UserRole>> GetAll();
+
     }
 }

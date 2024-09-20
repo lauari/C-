@@ -7,8 +7,6 @@ using System.Data;
 using System.Reflection;
 using Module = Entity.Model.Security.Module;
 
-
-
 namespace Entity.Context
 {
     public class ApplicationDBContext : DbContext
@@ -61,9 +59,11 @@ namespace Entity.Context
             ChangeTracker.DetectChanges();
         }
 
-        public Task<IEnumerable<T>> QueryAsync<T>(string sql)
+        public async Task<IEnumerable<T>> QueryAsync<T>(string text, object parameters = null, int? timeout = null, CommandType? type = null)
         {
-            throw new NotImplementedException();
+            using var command = new DapperEFCoreCommand(this, text, parameters, timeout, type, CancellationToken.None);
+            var connection = this.Database.GetDbConnection();
+            return await connection.QueryAsync<T>(command.Definition);
         }
 
         // Security
@@ -74,6 +74,9 @@ namespace Entity.Context
         public DbSet<RoleView> RoleView => Set<RoleView>();
         public DbSet<User> User => Set<User>();
         public DbSet<View> View => Set<View>();
+        public DbSet<City> City => Set<City>();
+        public DbSet<Countries> Countries => Set<Countries>();
+        public DbSet<State> State => Set<State>();
 
         public readonly struct DapperEFCoreCommand : IDisposable
         {

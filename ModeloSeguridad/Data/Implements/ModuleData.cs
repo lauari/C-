@@ -28,8 +28,7 @@ namespace Data.Implements
             if (entity == null)
                 throw new Exception("Registro no encontrado");
 
-            entity.DeleteAt = DateTime.Parse(DateTime.Today.ToString());
-            context.Module.Update(entity);
+            context.Module.Remove(entity);
             await context.SaveChangesAsync();
         }
 
@@ -47,7 +46,7 @@ namespace Data.Implements
         {
             try
             {
-                var sql = @"SELECT * FROM Role WHERE Id = @Id ORDER BY Id ASC";
+                var sql = @"SELECT * FROM Module WHERE Id = @Id ORDER BY Id ASC";
                 return await this.context.QueryFirstOrDefaultAsync<Module>(sql, new { Id = id });
             }
             catch (Exception)
@@ -74,8 +73,15 @@ namespace Data.Implements
 
         public async Task<IEnumerable<Module>> GetAll()
         {
-            var sql = @"SELECT * FROM Role ORDER BY Id ASC";
-            return await this.context.QueryAsync<Module>(sql);
+            try
+            {
+                var sql = "SELECT * FROM Module WHERE State=true ORDER BY Id ASC";
+                return await this.context.QueryAsync<Module>(sql);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener todos los Countries", ex);
+            }
         }
 
         //public async Task<Module> GetByName(string name)

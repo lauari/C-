@@ -54,6 +54,18 @@ namespace Data.Implements
                 throw;
             }
         }
+        public async Task<IEnumerable<UserRole>> GetAll()
+        {
+            try
+            {
+                var sql = "SELECT * FROM UserRole ORDER BY Id ASC";
+                return await this.context.QueryAsync<UserRole>(sql);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener todos los UserRoles", ex);
+            }
+        }
 
         public async Task<UserRole> Save(UserRole entity)
         {

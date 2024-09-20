@@ -10,12 +10,17 @@ namespace Entity.Model.Security
     {
         // Atributos
         public int Id { get; set; }
-        public string CreateAt { get; set; }
+        public DateTime CreateAt { get; set; }
         public string UpdateAt { get; set; }
         public DateTime DeleteAt { get; set; }
         public bool State { get; set; }
 
-        
+        public int RoleId { get; set; }
+        public Role Role { get; set; }
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+
     }
 }
 

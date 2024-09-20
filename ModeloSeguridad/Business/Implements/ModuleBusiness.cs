@@ -1,13 +1,8 @@
 ﻿using Business.Interfaces;
-using Data.Implements;
 using Data.Interfaces;
 using Entity.Dto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Entity.Model.Security;
 
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Implements
 {
@@ -64,7 +59,6 @@ namespace Business.Implements
             Module module = new Module();
             module.CreateAt = DateTime.Now.AddHours(-5);
             module = this.mapearDatos(module, entity);
-            module.module = null;
 
             return await this.data.Save(module);
         }
@@ -79,6 +73,11 @@ namespace Business.Implements
 
             module = this.mapearDatos(module, entity);
             await this.data.Update(module);
+        }
+
+        Task<Module> IModuleBusiness.Save(ModuleDto entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
